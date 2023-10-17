@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.movie-card {
+    width: 250px;
+    margin-bottom: 2rem;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .movie-card {
+        width: 100%;
+    }
+}
