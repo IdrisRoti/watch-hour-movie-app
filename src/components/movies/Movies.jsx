@@ -13,7 +13,7 @@ const Movies = ({header, videos}) => {
             </div>
             <div className="movie-list">
                 {videos && videos.map((video) => {
-                    return <MovieCard key={video.id} video={video}/>
+                    return <MovieCard key={video?.id} video={video}/>
                 })}
             </div>
         </div>

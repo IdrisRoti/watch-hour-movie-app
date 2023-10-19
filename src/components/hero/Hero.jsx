@@ -18,7 +18,7 @@ const Hero = ({video}) => {
                 <h1 className="poster-title">{video && video.title}</h1>
                 <div className="ratings">
                     <AiFillStar />
-                    <span>{video && video.vote_average}</span>
+                    <span>{video && video.vote_average.toFixed(1)}</span>
                 </div>
                 <p className="poster-details">{video && video.overview}</p>
                 <button>Watch Trailer</button>
