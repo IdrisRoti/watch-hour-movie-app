@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <Hero video={trendVideos[8]}/>
+      <Hero video={trendVideos[0]}/>
       <Movies header='Trending this week' videos={trendVideos}/>
     </div>
   )
